@@ -1,11 +1,26 @@
-# Clustering Assignment README
+# Clustering Assignment
 
 ## Introduction
 This repository contains the code and documentation for a clustering assignment using PyCaret. The assignment involves implementing three clustering algorithms (K-means, MeanShift, and Hierarchical Clustering) and plotting 3D graphs for visualization.
 
 ## Dataset
-The dataset used for this assignment is [provide dataset name and source]. This dataset contains [brief description of the dataset].
+The dataset used for this assignment is Taxi Trip Fare Prediction. This dataset contains The Taxi Trip Fare Prediction dataset typically contains information about taxi trips, including attributes such as trip duration, pickup and dropoff locations, number of passengers, and the fare amount. This dataset is commonly used in machine learning and data science projects to predict taxi trip fares based on various features.
 
+Here's a brief description of the attributes commonly found in a Taxi Trip Fare Prediction dataset:
+
+Trip Duration: The duration of the taxi trip in seconds or minutes.
+Pickup Time: The date and time when the taxi trip started.
+Dropoff Time: The date and time when the taxi trip ended.
+Pickup Location: Latitude and longitude coordinates or address of the pickup location.
+Dropoff Location: Latitude and longitude coordinates or address of the dropoff location.
+Passenger Count: The number of passengers in the taxi during the trip.
+Fare Amount: The fare amount charged for the taxi trip.
+Additional Charges: Any additional fees or charges added to the fare amount.
+Total Amount: The total fare amount including additional charges.
+Payment Type: The payment method used for the taxi trip (cash, credit card, etc.).
+This dataset can be used for various tasks such as regression to predict the fare amount based on trip attributes, classification to predict payment type, or clustering to identify patterns in taxi trip data.I used this dataset for clustering.
+
+ Additionally, data cleaning and feature engineering may be necessary to prepare the dataset for modeling tasks.
 ## Setup
 1. Clone this repository to your local machine.
 2. Ensure you have Python 3 installed on your machine.
